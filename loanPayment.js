@@ -1,3 +1,4 @@
+//U22562170
 export function calculateLoanPayment(principal, rate, years) {
     const monthlyRate = rate / 100 / 12;
     const numberOfPayments = years * 12;
