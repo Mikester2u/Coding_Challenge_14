@@ -1,3 +1,3 @@
-export function calculateInvestmentReturn(P, r, n, t) {
-    return P * Math.pow(1 + r / n, * t);
+export function calculateInvestmentReturn(principal, rate, years) {
+    return principal * Math.pow(1 + rate / 100, years);
 }
