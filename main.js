@@ -27,7 +27,7 @@ document.getElementById('calculate-interest').addEventListener('click', () => { 
     setResultText('interest-result', `Interest: ${interest.toFixed(2)}`);
 });
 
-document.getElementById('calculate-loan').addEventListener('click', () => { //Validation
+document.getElementById('calculate-loan').addEventListener('click', () => {//Validation
     const inputs = getValidatedInputs('loan-principal', 'loan-rate', 'loan-time');
     if (inputs === null) {
         alert('Please enter valid numbers.');
